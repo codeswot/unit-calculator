@@ -1,0 +1,116 @@
+{
+  "version": "2026-05-01.2",
+  "discos": [
+    {
+      "id": "KAEDC",
+      "name": "Kaduna Electricity Distribution Company",
+      "shortName": "Kaduna Electric",
+      "states": ["kaduna", "kebbi", "sokoto", "zamfara"],
+      "bandCheckerUrl": "https://kadunaelectric.com/know-your-band/",
+      "lifelineRate": 4.0,
+      "schedules": [
+        {
+          "effectiveFrom": "2026-05-01",
+          "source": "NERC Supplementary Order to MYTO for KAEDC, May 2026 (rates frozen at Jul 2024 Band A / Dec 2022 Bands B-E levels per para. 18)",
+          "vatRate": 0.075,
+          "bands": {
+            "A": {
+              "minSupplyHours": 20,
+              "rates": { "NON_MD": 209.5, "MD1": 209.5, "MD2": 209.5 }
+            },
+            "B": {
+              "minSupplyHours": 16,
+              "rates": { "NON_MD": 62.63, "MD1": 66.34, "MD2": 68.78 }
+            },
+            "C": {
+              "minSupplyHours": 12,
+              "rates": { "NON_MD": 51.12, "MD1": 52.88, "MD2": 55.52 }
+            },
+            "D": {
+              "minSupplyHours": 8,
+              "rates": { "NON_MD": 35.41, "MD1": 46.4, "MD2": 46.4 }
+            },
+            "E": {
+              "minSupplyHours": 4,
+              "rates": { "NON_MD": 35.41, "MD1": 46.4, "MD2": 46.4 }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "KEDCO",
+      "name": "Kano Electricity Distribution Company",
+      "shortName": "Kano Electric (KEDCO)",
+      "states": ["kano", "katsina", "jigawa"],
+      "bandCheckerUrl": "https://kedco.ng/",
+      "lifelineRate": 4.0,
+      "schedules": [
+        {
+          "effectiveFrom": "2026-05-01",
+          "source": "NERC Supplementary Order to MYTO for KEDCO, May 2026 (rates frozen at Jul 2024 Band A / Dec 2022 Bands B-E levels per para. 18)",
+          "vatRate": 0.075,
+          "bands": {
+            "A": {
+              "minSupplyHours": 20,
+              "rates": { "NON_MD": 209.5, "MD1": 209.5, "MD2": 209.5 }
+            },
+            "B": {
+              "minSupplyHours": 16,
+              "rates": { "NON_MD": 65.29, "MD1": 68.13, "MD2": 71.11 }
+            },
+            "C": {
+              "minSupplyHours": 12,
+              "rates": { "NON_MD": 47.57, "MD1": 49.51, "MD2": 54.01 }
+            },
+            "D": {
+              "minSupplyHours": 8,
+              "rates": { "NON_MD": 32.02, "MD1": 47.58, "MD2": 47.58 }
+            },
+            "E": {
+              "minSupplyHours": 4,
+              "rates": { "NON_MD": 31.88, "MD1": 47.58, "MD2": 47.58 }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "AEDC",
+      "name": "Abuja Electricity Distribution Company",
+      "shortName": "Abuja Electric (AEDC)",
+      "states": ["abuja", "niger", "kogi", "nasarawa"],
+      "bandCheckerUrl": "https://www.abujaelectricity.com/",
+      "lifelineRate": 4.0,
+      "schedules": [
+        {
+          "effectiveFrom": "2026-05-01",
+          "source": "NERC Supplementary Order to MYTO for AEDC, May 2026 (rates frozen at Jul 2024 Band A / Dec 2022 Bands B-E levels per para. 18; 'A - MD2 Special' class priced identically to MD2 and folded into it)",
+          "vatRate": 0.075,
+          "bands": {
+            "A": {
+              "minSupplyHours": 20,
+              "rates": { "NON_MD": 209.5, "MD1": 209.5, "MD2": 209.5 }
+            },
+            "B": {
+              "minSupplyHours": 16,
+              "rates": { "NON_MD": 63.35, "MD1": 76.15, "MD2": 76.15 }
+            },
+            "C": {
+              "minSupplyHours": 12,
+              "rates": { "NON_MD": 51.79, "MD1": 63.44, "MD2": 63.44 }
+            },
+            "D": {
+              "minSupplyHours": 8,
+              "rates": { "NON_MD": 33.95, "MD1": 55.82, "MD2": 55.82 }
+            },
+            "E": {
+              "minSupplyHours": 4,
+              "rates": { "NON_MD": 33.95, "MD1": 55.82, "MD2": 55.82 }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
